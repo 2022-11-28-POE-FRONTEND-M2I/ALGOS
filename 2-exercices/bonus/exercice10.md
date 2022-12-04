@@ -1,3 +1,10 @@
-# Exercice 10 : Jeux Blocky Musique
+# Exercice 10 : Nombre de voyelles
 
-- [Jeux Blocky Musique](https://blockly.games/music)
+## Modalité
+
+- Utilisez le logiciel *AlgoBox* ou le langage de programmation de votre choix, idéalement ***JavaScript*** si vous en avez les bases.
+
+## Programme à réaliser
+
+1. Demandez à l'utilisateur de saisir une phrase.
+2. Affichez le nombre total de voyelles (a,e,i,o,u,y) présent dans la phrase.

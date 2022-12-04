@@ -1,4 +1,4 @@
-# Exercice 9 : Nombre de voyelles
+# Exercice 9 : Table de multiplication
 
 ## Modalité
 
@@ -6,5 +6,23 @@
 
 ## Programme à réaliser
 
-1. Demandez à l'utilisateur de saisir une phrase.
-2. Affichez le nombre total de voyelles (a,e,i,o,u,y) présent dans la phrase.
+1. Affichez les tables de multiplications de 1 à 15
+
+
+### Exemples
+
+#### Table de 1
+
+1 * 1 = 1
+
+...
+
+1 * 10 = 10
+
+#### Table de 15
+
+15 * 1 = 15
+
+...
+
+15 * 10 = 150

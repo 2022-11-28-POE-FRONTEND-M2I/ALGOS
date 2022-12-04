@@ -10,18 +10,18 @@
 ## Modalités
 
 
-[cf. Partie 1 du TP](tp1.md)
+[cf. Partie 1 du TP](./tp1_banque_part1.md)
 
 ---
 
 ## Contexte global
 
-[cf. Partie 1 du TP](tp1.md)
+[cf. Partie 1 du TP](./tp1_banque_part1.md)
 
 ---
 
 ## Consigne
 
 1. Créez des fonctions pour factoriser votre code.
-2. Stockez les opérations dans un tableau.
-3. Affichez toutes les opérations.
+2. Stockez toutes les opérations effectuées par le client.
+3. Affichez toutes les opérations effectuées par le client.
