@@ -26,6 +26,8 @@
 - [Correction exercice 3](./2-exercices/corrections/exercice3)
 - [Correction exercice 4](./2-exercices/corrections/exercice4)
 
+- [Corrections des exercices 1 à 6 en JS](./2-exercices/corrections/js/)
+
 ---
 
 ## TP
