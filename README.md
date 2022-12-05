@@ -19,12 +19,12 @@
 - [exercice 6 : structures itératives](./2-exercices/exercice6.md)
 - [exercice 7 : fonctions et tableaux](./2-exercices/exercice7.md)
 
-
 ## Corrections des exercices
 
 - [Correction exercice 1](./2-exercices/corrections/exercice1)
 - [Correction exercice 2](./2-exercices/corrections/exercice2)
 - [Correction exercice 3](./2-exercices/corrections/exercice3)
+- [Correction exercice 4](./2-exercices/corrections/exercice4)
 
 ---
 
