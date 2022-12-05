@@ -9,17 +9,22 @@
 
 ---
 
-## Exercices et corrections
+## Exercices
 
 - [exercice 1 : variables, types](./2-exercices/exercice1.md)
-- [Correction exercice 1](./2-exercices/corrections/exercice1)
 - [exercice 2 : structures conditionnelles](./2-exercices/exercice2.md)
-- [Correction exercice 2](./2-exercices/corrections/exercice2)
 - [exercice 3 : opérateurs mathématiques](./2-exercices/exercice3.md)
 - [exercice 4 : opérateurs logiques](./2-exercices/exercice4.md)
 - [exercice 5 : opérateurs](./2-exercices/exercice5.md)
 - [exercice 6 : structures itératives](./2-exercices/exercice6.md)
 - [exercice 7 : fonctions et tableaux](./2-exercices/exercice7.md)
+
+
+## Corrections des exercices
+
+- [Correction exercice 1](./2-exercices/corrections/exercice1)
+- [Correction exercice 2](./2-exercices/corrections/exercice2)
+- [Correction exercice 3](./2-exercices/corrections/exercice3)
 
 ---
 
