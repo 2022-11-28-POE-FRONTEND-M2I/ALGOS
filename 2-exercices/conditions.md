@@ -16,15 +16,14 @@ Donnez les résultats (vrai ou faux) de l'évaluation des conditions ci-après.
 10. !(true ET false).
 11. (age < 25 ET nb >= 10) : l'utilisateur saisit age = 15 et nb = 30.
 12. (age == 18 OU nb != 10) : l'utilisateur saisit age = 15 et nb = 30.
-13. (age == 18 OU nb != 10) : l'utilisateur saisit age = 15 et nb = 30.
-14. (age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 15.
-15. (age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 25.
-16. !(age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 18.
-17. !(age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 30.
-18. (annee == 2022 ET mois == "novembre" ET jour == "14") : donnez les valeurs d'année, mois et jour qui permettent d'évaluer la condition à vrai.
-19. EstIlUneAnneeBixetile(2022).
-20. EstIlUneAnneeBixetile(2028).
-21. EstIlUneAnneeBixetile(2017) OU EstIlImpair(2017).
+13. (age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 15.
+14. (age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 25.
+15. !(age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 18.
+16. !(age == 18 OU age == 30 OU age != 15) : l'utilisateur saisit 30.
+17. (annee == 2022 ET mois == "novembre" ET jour == "14") : donnez les valeurs d'année, mois et jour qui permettent d'évaluer la condition à vrai.
+18. EstIlUneAnneeBixetile(2022).
+19. EstIlUneAnneeBixetile(2028).
+20. EstIlUneAnneeBixetile(2017) OU EstIlImpair(2017).
 
 ## Boucles
 
@@ -35,7 +34,11 @@ Donnez les résultats (vrai ou faux) de l'évaluation des conditions ci-après.
 5. Écrire un programme qui affiche :
 
 `*`
+
 `**`
+
 `***`
+
 `****`
+
 `*****`
