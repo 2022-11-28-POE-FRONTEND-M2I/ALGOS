@@ -42,3 +42,15 @@ Donnez les résultats (vrai ou faux) de l'évaluation des conditions ci-après.
 `****`
 
 `*****`
+
+ou 
+
+`1`
+
+`22`
+
+`333`
+
+`4444`
+
+`55555`
