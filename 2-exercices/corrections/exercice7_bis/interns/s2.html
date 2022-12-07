@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    var classe = [];
+    var eleve = [];
+    
+    function calculMoyenneEleve(eleve) {
+      var moyenne = 0;
+      for (i = 0; i < eleve.length; i++) {
+        moyenne += eleve[i];
+      }
+      return moyenne / eleve.length;
+    }
+
+    function calculMoyenneClasse(classe) {
+      var moyenne = 0;
+      for (i = 0; i < classe.length; i++) {
+        moyenne += calculMoyenneEleve(classe[i]);
+      }
+      return moyenne / classe.length;
+    }
+
+    function calculMoyenne(classe, matiere) {
+      var moyenne = 0;
+      for (i = 0; i < classe.length; i++) {
+        moyenne += classe[i][matiere];
+      }
+      return moyenne / classe.length;
+    }
+
+    function verifierNote(math, francais, anglais, physique, chimie) {
+      if (
+        math < 21 &&
+        math > -1 &&
+        francais < 21 &&
+        francais > -1 &&
+        anglais < 21 &&
+        anglais > -1 &&
+        physique < 21 &&
+        physique > -1 &&
+        chimie < 21 &&
+        chimie > -1
+      ) {
+        return true;
+      } else {
+        alert("votre note n'est pas valide");
+        return false;
+      }
+    }
+
+    function demanderNote(matiere) {
+      var note = parseInt(prompt(`Rentrez votre note de ${matiere}:`));
+      if (note > -1 && note < 21) {
+        return note;
+      } else {
+        alert("Votre note n'est pas valide");
+        return false;
+      }
+    }
+
+    do {
+      for (let index = 0; index < 1; index++) {
+        var math = demanderNote("mathématiques");
+        var francais = demanderNote("français");
+        var anglais = demanderNote("anglais");
+        var physique = demanderNote("physique");
+        var chimie = demanderNote("chimie");
+        var eleve = [math, francais, anglais, physique, chimie];
+        console.log(calculMoyenneEleve(eleve));
+      }
+
+      var demande = prompt("voulez vous ajouter un élève ? oui ou non");
+      classe.push(eleve);
+      var moyenneMath = calculMoyenne(classe, 0);
+      var moyenneFrancais = calculMoyenne(classe, 1);
+      var moyenneAnglais = calculMoyenne(classe, 2);
+      var moyennePhysique = calculMoyenne(classe, 3);
+      var moyenneChimie = calculMoyenne(classe, 4);
+      console.log("la moyenne de math est de " + moyenneMath);
+      console.log("la moyenne de francais est de " + moyenneFrancais);
+      console.log("la moyenne d'anglais est de " + moyenneAnglais);
+      console.log("la moyenne en physique est de " + moyennePhysique);
+      console.log("la moyenne en chimie est de" + moyenneChimie);
+    } while (demande === "oui");
+
+    console.log("fini");
+  </script>
+</body>
+</html>

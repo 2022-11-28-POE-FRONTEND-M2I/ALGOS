@@ -25,8 +25,12 @@
 - [Correction exercice 2](./2-exercices/corrections/exercice2)
 - [Correction exercice 3](./2-exercices/corrections/exercice3)
 - [Correction exercice 4](./2-exercices/corrections/exercice4)
-
-- [Corrections des exercices 1 à 6 en JS](./2-exercices/corrections/js/)
+- [Correction exercice 5](./2-exercices/corrections/exercice5)
+- [Correction exercice 6](./2-exercices/corrections/exercice6)
+- [Corrections des exercices 1 à 7 en JS](./2-exercices/corrections/js/)
+- [Corrections des exercices sur les conditions](./2-exercices/corrections/conditions.md)
+- [Corrections des exercices sur les boucles](./2-exercices/corrections/js/conditions.js)
+- [Travaux stagiaires exercice 7 bis](./2-exercices/corrections/exercice7_bis/interns/)
 
 ---
 
