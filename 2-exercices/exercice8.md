@@ -1,4 +1,4 @@
-# Exercice 8 : tri à bulles
+# Exercice 8 : tri
 
 ## Modalités
 
@@ -7,4 +7,12 @@
 
 ## Programme à réaliser
 
-1. Écrivez un programme qui prend en entrée des entiers puis en sortie les trie par ordre croissant.
+1. Écrivez un programme qui prend en entrée des entiers puis en sortie les tris par ordre croissant.
+- Offrir à l'utilisateur la possibilité de rentrer plusieurs nombres les uns après les autres puis lui permettre d'arrêter la saisie après avoir entré la lettre `q` pour quitter.
+- Affichez le nombre de tour effectué par votre algorithme pour effectuer le tri.
+- Affichez les nombres triés dans l'ordre croissant.
+- Par déduction, sans refaire le tri, affichez les nombres triés par ordre décroissant.
+
+### Exemple du scénario attendu
+
+![sort](./img/sort.png)

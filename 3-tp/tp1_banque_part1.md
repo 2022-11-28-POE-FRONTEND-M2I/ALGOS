@@ -34,7 +34,7 @@
 
 1. **Votre programme doit fonctionner indépendamment des autres**.
 
-**Chacun à une mission à accomplir mais vous travaillez en équipe, entraidez-vous.**
+**Chacun a une mission à accomplir, mais vous travaillez en équipe, entraidez-vous.**
 
 Le premier développeur est responsable de l'ouverture de compte, le second des opérations de retrait et le dernier du calcul des agios.
 
